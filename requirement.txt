@@ -1,0 +1,19 @@
+1: cat function
+It reads the contents of FILENAME (each line of that file will be a URL).
+
+
+
+2: webCat function 
+For each URL, it will get that page (a GET request to the URL) 
+
+
+
+3: writeFunc function 
+save the HTML in a new file.
+For each URL, the output filename should be the hostname of the URL. 
+The file name is called yahoo.com
+
+5:
+Handle Errors
+If you cannot read the original file (FILENAME), immediately end your script with an error printed to the console.
+If you cannot download a particular URL or cannot write to a particular output file, print an error to the console saying so, but continue on with the rest of the script.
